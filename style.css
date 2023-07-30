@@ -26,7 +26,8 @@ p:first-of-type {
 
 .display {
     display: none;
-    height: 100vh;
+    height: 99vh;
+    height: 99svh;
     font-family: sans-serif;
     position: relative;
     border-bottom: 1px solid black;
@@ -41,7 +42,7 @@ p:first-of-type {
 
 .content {
     padding: 1rem;
-    line-height: 1.4em;
+    line-height: 1.5em;
     height: 100%;
     width: 100%;
     max-width: 100%;
@@ -54,6 +55,7 @@ p:first-of-type {
 
 textarea {
     width: 100%;
+    max-width: 100%;
     background: white;
 }
 
